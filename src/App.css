@@ -1,13 +1,24 @@
 .page-wrapper{
-  background-color: yellow;
+  background-color: #5E0047;
   height: 100vh;
+  overflow: hidden;
 }
 .single-nav{
   cursor: pointer;
 }
 .nav-list{
-  border-right: 3px solid black;
+  font-weight: 900;
+  background-color: #5E0047;
 }
-/* .nav-list{
-  height: 100vh;
-} */
+.nav-list .single-nav{
+  font-size: 25px;
+  color: white;
+}
+.nav-list .single-nav:hover{
+  background-color: red;
+}
+.display{
+  background-color: black;
+  border-left: 5px solid white;
+}
+

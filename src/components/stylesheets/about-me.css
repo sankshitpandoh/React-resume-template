@@ -1,0 +1,15 @@
+.intro{
+  font-family: Cataclysmo;
+}
+.intro h1{
+    font-size: 80px;
+    color: #FFCC00;
+}
+.intro p{
+    font-size: 35px;
+    color: white;
+}
+.description p{
+    line-height: 1.2;
+    font-size: 20px;
+}

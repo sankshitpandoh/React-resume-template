@@ -21,74 +21,74 @@ export default class App extends Component{
     this.handleClick5 = this.handleClick5.bind(this)
     this.state={
       initial: 0,
-      l0: "#98003F",
-      l1: "#5E0047",
-      l2: "#5E0047",
-      l3: "#5E0047",
-      l4: "#5E0047",
-      l5: "#5E0047",
+      l0: "#A9AA8A",
+      l1: "#DFDFDF",
+      l2: "#DFDFDF",
+      l3: "#DFDFDF",
+      l4: "#DFDFDF",
+      l5: "#DFDFDF",
     }
   }
   handleClick(){
     this.setState({
       initial:0,
-      l0: "#98003F",
-      l1: "#5E0047",
-      l2: "#5E0047",
-      l3: "#5E0047",
-      l4: "#5E0047",
-      l5: "#5E0047",
+      l0: "#A9AA8A",
+      l1: "#DFDFDF",
+      l2: "#DFDFDF",
+      l3: "#DFDFDF",
+      l4: "#DFDFDF",
+      l5: "#DFDFDF",
     })
   }
   handleClick1(){
     this.setState({
       initial:1,
-      l0: "#5E0047",
-      l1: "#98003F",
-      l2: "#5E0047",
-      l3: "#5E0047",
-      l4: "#5E0047",
-      l5: "#5E0047",
+      l0: "#DFDFDF",
+      l1: "#A9AA8A",
+      l2: "#DFDFDF",
+      l3: "#DFDFDF",
+      l4: "#DFDFDF",
+      l5: "#DFDFDF",
     })
   }  handleClick2(){
     this.setState({
       initial:2,
-      l0: "#5E0047",
-      l1: "#5E0047",
-      l2: "#98003F",
-      l3: "#5E0047",
-      l4: "#5E0047",
-      l5: "#5E0047",
+      l0: "#DFDFDF",
+      l1: "#DFDFDF",
+      l2: "#A9AA8A",
+      l3: "#DFDFDF",
+      l4: "#DFDFDF",
+      l5: "#DFDFDF",
     })
   }  handleClick3(){
     this.setState({
       initial:3,
-      l0: "#5E0047",
-      l1: "#5E0047",
-      l2: "#5E0047",
-      l3: "#98003F",
-      l4: "#5E0047",
-      l5: "#5E0047",
+      l0: "#DFDFDF",
+      l1: "#DFDFDF",
+      l2: "#DFDFDF",
+      l3: "#A9AA8A",
+      l4: "#DFDFDF",
+      l5: "#DFDFDF",
     })
   }  handleClick4(){
     this.setState({
       initial:4,
-      l0: "#5E0047",
-      l1: "#5E0047",
-      l2: "#5E0047",
-      l3: "#5E0047",
-      l4: "#98003F",
-      l5: "#5E0047",
+      l0: "#DFDFDF",
+      l1: "#DFDFDF",
+      l2: "#DFDFDF",
+      l3: "#DFDFDF",
+      l4: "#A9AA8A",
+      l5: "#DFDFDF",
     })
   }  handleClick5(){
     this.setState({
       initial:5,
-      l0: "#5E0047",
-      l1: "#5E0047",
-      l2: "#5E0047",
-      l3: "#5E0047",
-      l4: "#5E0047",
-      l5: "#98003F",
+      l0: "#DFDFDF",
+      l1: "#DFDFDF",
+      l2: "#DFDFDF",
+      l3: "#DFDFDF",
+      l4: "#DFDFDF",
+      l5: "#A9AA8A",
     })
   }
   renderElement(){

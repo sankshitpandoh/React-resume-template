@@ -5,7 +5,7 @@ export default function Education(){
     return(
         <div class="container">
 
-            <div class="col-12 single-ed p-3 mb-4">
+            <div class="col-12 single-ed p-3 mb-5">
                 <div class="top d-flex justify-content-between">
                     <div class="top-left d-flex flex-column">
                         <h2>Pandit DeenDayal Petroleum University</h2>
@@ -13,7 +13,7 @@ export default function Education(){
                     </div>
                     <div class="time-span">
                         <h2>
-                        Aug 2016- May 2020
+                            2016 - 2020
                         </h2>
                     </div>
                 </div>
@@ -27,15 +27,15 @@ export default function Education(){
                 </div>
             </div>
 
-            <div class="col-12 single-ed p-3 mb-4">
+            <div class="col-12 single-ed p-3 mb-5">
                 <div class="top d-flex justify-content-between">
                     <div class="top-left d-flex flex-column">
-                        <h2>Pandit DeenDayal Petroleum University</h2>
-                        <p>Bachelor of Technology in Industrial Engineering</p>
+                        <h2>Ranbir Higher Secondary School</h2>
+                        <p>Junior College</p>
                     </div>
                     <div class="time-span">
                         <h2>
-                        Aug 2016- May 2020
+                            2014 - 2016
                         </h2>
                     </div>
                 </div>
@@ -49,15 +49,15 @@ export default function Education(){
                 </div>
             </div>
             
-            <div class="col-12 single-ed p-3 mb-4">
+            <div class="col-12 single-ed p-3 mb-5">
                 <div class="top d-flex justify-content-between">
                     <div class="top-left d-flex flex-column">
-                        <h2>Pandit DeenDayal Petroleum University</h2>
-                        <p>Bachelor of Technology in Industrial Engineering</p>
+                        <h2>St. Peter's High School</h2>
+                        <p>High School</p>
                     </div>
                     <div class="time-span">
                         <h2>
-                        Aug 2016- May 2020
+                            2004 - 2014
                         </h2>
                     </div>
                 </div>

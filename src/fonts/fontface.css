@@ -6,3 +6,11 @@
          url(./Cataclysmo.woff) format('woff'),
          url(./Cataclysmo.woff2) format('woff2')
   }
+@font-face{
+    font-family: JUSTDOGOOD;
+    src: url(./JUSTDOGOOD.eot) format('eot'),
+    url(./JUSTDOGOOD.svg) format('svg'),
+    url(./JUSTDOGOOD.ttf) format('ttf'),
+    url(./JUSTDOGOOD.woff) format('woff'),
+    url(./JUSTDOGOOD.woff2) format('woff2')
+}

@@ -1,5 +1,5 @@
 .page-wrapper{
-  background-color: #5E0047;
+  background-color: #DFDFDF;
   height: 100vh;
   overflow: hidden;
 }
@@ -7,18 +7,19 @@
   cursor: pointer;
 }
 .nav-list{
-  font-weight: 900;
-  background-color: #5E0047;
+  font-weight: 400;
+  font-family: Cataclysmo;
+  background-color: #DFDFDF;
 }
 .nav-list .single-nav{
   font-size: 25px;
-  color: white;
+  color: #575757;
 }
 .nav-list .single-nav:hover{
   background-color: red;
 }
 .display{
-  background-color: black;
-  border-left: 5px solid white;
+  background-color: #848469;
+  border-left: 5px solid #A9AA8A;
 }
 

@@ -1,6 +1,7 @@
 .single-ed{
-    background-color: white;
+    background-color: #575757;
+    color: white;
 }
 .single-ed .content p{
-    line-height: 1;
+    line-height: 1.2;
 }

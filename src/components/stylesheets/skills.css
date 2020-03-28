@@ -1,0 +1,17 @@
+.single-skill .progress{
+    background-color: #3e4148;
+}
+.single-skill .progress .progress-bar{
+    background-color: #ff9800;
+    width: 0%;
+    animation: fill 1s forwards;   
+}
+@keyframes fill{
+    0%{
+        width: 0%;
+    }
+}
+.single-skill h3{
+    color: white;
+    font-size: 20px;
+}

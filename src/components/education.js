@@ -5,7 +5,7 @@ import ReactWOW from 'react-wow';
 
 export default function Education(){
     return(
-        <ReactWOW animation ='bounceInUp' delay="0.5s">
+        <ReactWOW animation ='bounceInUp'>
         <div class="container row">
             <div class="col-10">
                 <div class = "single-ed p-3 mb-3">

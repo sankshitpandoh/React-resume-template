@@ -17,7 +17,8 @@
 .left-section .intro p{
   font-size: 13px;
   text-align: center;
-  font-family: Bellada-Regular;
+    font-family: KomikaAxis;
+    /* font-family: Bellada-Regular; */
   color: black;
 }
 .left-section .intro figure{

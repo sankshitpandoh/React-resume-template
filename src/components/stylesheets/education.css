@@ -1,7 +1,21 @@
 .single-ed{
-    background-color: #575757;
+    background-color: black;   
     color: white;
+    font-family: Cataclysmo;
+    border-radius: 10px;
+}
+.single-ed .top span{
+    font-size: 30px;
+}
+.single-ed .top h2{
+    color: #ff9800;
+    margin: 0;
+    font-size: 35px;
+}
+.single-ed .content span{
+    color: #ff9800;
 }
 .single-ed .content p{
-    line-height: 1.2;
+    line-height: 1.1;
+    font-size: 25px;
 }

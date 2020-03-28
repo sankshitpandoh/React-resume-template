@@ -15,5 +15,14 @@
          url(./Bellada-Regular.woff) format('woff'),
          url(./Bellada-Regular.woff2) format('woff2')
   }
+@font-face{
+    font-family: KomikaAxis;
+    src: url(./KomikaAxis.eot) format('eot'),
+         url(./KomikaAxis.svg) format('svg'),
+         url(./KomikaAxis.ttf) format('ttf'),
+         url(./KomikaAxis.woff) format('woff'),
+         url(./KomikaAxis.woff2) format('woff2')
+  }
+  
 
 

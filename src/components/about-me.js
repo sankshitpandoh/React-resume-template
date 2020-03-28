@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import display_img from '../images/pp.png';
+// import display_img from '../images/pp.png';s
 import './stylesheets/reset.css';
 import './stylesheets/about-me.css';
 
@@ -23,7 +23,6 @@ export default function About_me(){
                 </div>
             </div>
             <div class="d-flex col-5 pt-2">
-                <img src={display_img} ></img>
             </div>
         </div>
     )

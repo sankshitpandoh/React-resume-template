@@ -6,11 +6,14 @@
          url(./Cataclysmo.woff) format('woff'),
          url(./Cataclysmo.woff2) format('woff2')
   }
+
 @font-face{
-    font-family: JUSTDOGOOD;
-    src: url(./JUSTDOGOOD.eot) format('eot'),
-    url(./JUSTDOGOOD.svg) format('svg'),
-    url(./JUSTDOGOOD.ttf) format('ttf'),
-    url(./JUSTDOGOOD.woff) format('woff'),
-    url(./JUSTDOGOOD.woff2) format('woff2')
-}
+    font-family: Bellada-Regular;
+    src: url(./Bellada-Regular.eot) format('eot'),
+         url(./Bellada-Regular.svg) format('svg'),
+         url(./Bellada-Regular.ttf) format('ttf'),
+         url(./Bellada-Regular.woff) format('woff'),
+         url(./Bellada-Regular.woff2) format('woff2')
+  }
+
+

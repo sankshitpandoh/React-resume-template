@@ -1,25 +1,52 @@
 .page-wrapper{
-  background-color: #DFDFDF;
+  background-color: black;
   height: 100vh;
   overflow: hidden;
 }
-.single-nav{
-  cursor: pointer;
+.left-section .intro{
+  background-color: #fff;
+}
+.left-section .intro h2{
+  font-size: 38px;
+  font-family: Cataclysmo;
+}
+.left-section .intro p{
+  font-size: 13px;
+  text-align: center;
+  font-family: Bellada-Regular;
+  color: black;
+
+}
+.left-section .intro figure{
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: white;
+  overflow: hidden;
+}
+.left-section .intro figure img{
+  width: 100%;
 }
 .nav-list{
   font-weight: 400;
   font-family: Cataclysmo;
-  background-color: #DFDFDF;
+  background-color: black;
 }
 .nav-list .single-nav{
+  cursor: pointer;
   font-size: 25px;
-  color: #575757;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+  transition: all 0.6s;
 }
 .nav-list .single-nav:hover{
-  background-color: red;
+  background-color: black !important;
+  color: #fff !important;
 }
 .display{
   background-color: #848469;
-  border-left: 5px solid #A9AA8A;
+  border-left: 10px solid black;
 }
 

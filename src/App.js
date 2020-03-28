@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import display_image from './images/dp.png';
 import About_me from './components/about-me.js';
 import Experience from './components/experience.js';
 import Education from './components/education.js';
@@ -21,74 +22,116 @@ export default class App extends Component{
     this.handleClick5 = this.handleClick5.bind(this)
     this.state={
       initial: 0,
-      l0: "#A9AA8A",
-      l1: "#DFDFDF",
-      l2: "#DFDFDF",
-      l3: "#DFDFDF",
-      l4: "#DFDFDF",
-      l5: "#DFDFDF",
+      l0: "black",
+      l1: "#fff",
+      l2: "#fff",
+      l3: "#fff",
+      l4: "#fff",
+      l5: "#fff",
+      c0: "#fff",
+      c1: "black",
+      c2: "black",
+      c3: "black",
+      c4: "black",
+      c5: "black",
     }
   }
   handleClick(){
     this.setState({
       initial:0,
-      l0: "#A9AA8A",
-      l1: "#DFDFDF",
-      l2: "#DFDFDF",
-      l3: "#DFDFDF",
-      l4: "#DFDFDF",
-      l5: "#DFDFDF",
+      l0: "black",
+      l1: "#fff",
+      l2: "#fff",
+      l3: "#fff",
+      l4: "#fff",
+      l5: "#fff",
+      c0: "#fff",
+      c1: "black",
+      c2: "black",
+      c3: "black",
+      c4: "black",
+      c5: "black",
     })
   }
   handleClick1(){
     this.setState({
       initial:1,
-      l0: "#DFDFDF",
-      l1: "#A9AA8A",
-      l2: "#DFDFDF",
-      l3: "#DFDFDF",
-      l4: "#DFDFDF",
-      l5: "#DFDFDF",
+      l0: "#fff",
+      l1: "black",
+      l2: "#fff",
+      l3: "#fff",
+      l4: "#fff",
+      l5: "#fff",
+      c0: "black",
+      c1: "#fff",
+      c2: "black",
+      c3: "black",
+      c4: "black",
+      c5: "black",
     })
   }  handleClick2(){
     this.setState({
       initial:2,
-      l0: "#DFDFDF",
-      l1: "#DFDFDF",
-      l2: "#A9AA8A",
-      l3: "#DFDFDF",
-      l4: "#DFDFDF",
-      l5: "#DFDFDF",
+      l0: "#fff",
+      l1: "#fff",
+      l2: "black",
+      l3: "#fff",
+      l4: "#fff",
+      l5: "#fff",
+      c0: "black",
+      c1: "black",
+      c2: "#fff",
+      c3: "black",
+      c4: "black",
+      c5: "black",
     })
   }  handleClick3(){
     this.setState({
       initial:3,
-      l0: "#DFDFDF",
-      l1: "#DFDFDF",
-      l2: "#DFDFDF",
-      l3: "#A9AA8A",
-      l4: "#DFDFDF",
-      l5: "#DFDFDF",
+      l0: "#fff",
+      l1: "#fff",
+      l2: "#fff",
+      l3: "black",
+      l4: "#fff",
+      l5: "#fff",
+      c0: "black",
+      c1: "black",
+      c2: "black",
+      c3: "#fff",
+      c4: "black",
+      c5: "black",
     })
   }  handleClick4(){
     this.setState({
       initial:4,
-      l0: "#DFDFDF",
-      l1: "#DFDFDF",
-      l2: "#DFDFDF",
-      l3: "#DFDFDF",
-      l4: "#A9AA8A",
-      l5: "#DFDFDF",
+      l0: "#fff",
+      l1: "#fff",
+      l2: "#fff",
+      l3: "#fff",
+      l4: "black",
+      l5: "#fff",
+      c0: "black",
+      c1: "black",
+      c2: "black",
+      c3: "black",
+      c4: "#fff",
+      c5: "black",
     })
   }  handleClick5(){
     this.setState({
       initial:5,
-      l0: "#DFDFDF",
-      l1: "#DFDFDF",
-      l2: "#DFDFDF",
-      l3: "#DFDFDF",
-      l4: "#DFDFDF",
-      l5: "#A9AA8A",
+      l0: "#fff",
+      l1: "#fff",
+      l2: "#fff",
+      l3: "#fff",
+      l4: "#fff",
+      l5: "black",
+      c0: "black",
+      c1: "black",
+      c2: "black",
+      c3: "black",
+      c4: "black",
+      c5: "#fff",
     })
   }
   renderElement(){
@@ -126,17 +169,32 @@ export default class App extends Component{
   render(){
     return(
       <div className="page-wrapper d-flex">
-        <div className="nav-list col-2 px-0 my-5">
-          <div onClick={this.handleClick} style={{backgroundColor: this.state.l0}} className="single-nav my-5 pl-3 d-flex align-items-center">About Me</div>
-          <div onClick={this.handleClick1} style={{backgroundColor: this.state.l1}} className="single-nav my-5 pl-3 d-flex align-items-center">Experience</div>  
-          <div onClick={this.handleClick2} style={{backgroundColor: this.state.l2}} className="single-nav my-5 pl-3 d-flex align-items-center">Education</div>  
-          <div onClick={this.handleClick3} style={{backgroundColor: this.state.l3}} className="single-nav my-5 pl-3 d-flex align-items-center">Skills</div>
-          <div onClick={this.handleClick4} style={{backgroundColor: this.state.l4}} className="single-nav my-5 pl-3 d-flex align-items-center">Projects</div>  
-          <div onClick={this.handleClick5} style={{backgroundColor: this.state.l5}} className="single-nav my-5 pl-3 d-flex align-items-center">Contact Me</div>  
+
+        <div className="left-section col-2 px-0">
+
+          <div className="intro d-flex flex-column align-items-center pt-3">
+            <figure>
+              <img src={display_image} ></img>
+            </figure>
+            <h2 class="mb-0">Sankshit Pandoh</h2>
+            <p>"If you can't blow them with your brilliance, baffle them with your bullshit."</p>
+          </div>
+
+          <div class="nav-list my-3">
+            <div onClick={this.handleClick} style={{backgroundColor: this.state.l0, color: this.state.c0}} className="single-nav mb-2 pl-3 d-flex align-items-center">About Me</div>
+            <div onClick={this.handleClick1} style={{backgroundColor: this.state.l1, color: this.state.c1}} className="single-nav mb-2 pl-3 d-flex align-items-center">Experience</div>  
+            <div onClick={this.handleClick2} style={{backgroundColor: this.state.l2, color: this.state.c2}} className="single-nav mb-2 pl-3 d-flex align-items-center">Education</div>  
+            <div onClick={this.handleClick3} style={{backgroundColor: this.state.l3, color: this.state.c3}} className="single-nav mb-2 pl-3 d-flex align-items-center">Skills</div>
+            <div onClick={this.handleClick4} style={{backgroundColor: this.state.l4, color: this.state.c4}} className="single-nav mb-2 pl-3 d-flex align-items-center">Projects</div>  
+            <div onClick={this.handleClick5} style={{backgroundColor: this.state.l5, color: this.state.c5}} className="single-nav mb-2 pl-3 d-flex align-items-center">Contact Me</div>  
+          </div>
+
         </div>
+
         <div className="display col-10 p-4">
           {this.renderElement()}
         </div>
+        
       </div>
     )
   }

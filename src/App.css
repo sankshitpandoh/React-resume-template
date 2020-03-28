@@ -3,8 +3,12 @@
   height: 100vh;
   overflow: hidden;
 }
+.left-section{
+  z-index: 10;
+}
 .left-section .intro{
   background-color: #fff;
+  border-radius: 5%;
 }
 .left-section .intro h2{
   font-size: 38px;
@@ -15,7 +19,6 @@
   text-align: center;
   font-family: Bellada-Regular;
   color: black;
-
 }
 .left-section .intro figure{
   height: 125px;
@@ -24,6 +27,10 @@
   border: 2px solid white;
   background-color: white;
   overflow: hidden;
+  transition: all 0.5s;
+}
+.left-section .intro figure:hover{
+  transform: scale(1.05);
 }
 .left-section .intro figure img{
   width: 100%;

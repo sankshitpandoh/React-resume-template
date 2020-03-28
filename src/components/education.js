@@ -1,8 +1,10 @@
 import React,{Component} from 'react';
 import './stylesheets/education.css';
+import ReactWOW from 'react-wow';
 
 export default function Education(){
     return(
+        <ReactWOW animation ='bounceInLeft'>
         <div class="container">
 
             <div class="col-12 single-ed p-3 mb-5">
@@ -72,5 +74,6 @@ export default function Education(){
             </div>
 
         </div>
+        </ReactWOW> 
     )
 }

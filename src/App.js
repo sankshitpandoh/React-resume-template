@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import ReactWOW from 'react-wow'
 import display_image from './images/dp.png';
 import About_me from './components/about-me.js';
 import Experience from './components/experience.js';
@@ -172,21 +173,35 @@ export default class App extends Component{
 
         <div className="left-section col-2 px-0">
 
-          <div className="intro d-flex flex-column align-items-center pt-3">
-            <figure>
-              <img src={display_image} ></img>
-            </figure>
-            <h2 class="mb-0">Sankshit Pandoh</h2>
-            <p>"If you can't blow them with your brilliance, baffle them with your bullshit."</p>
-          </div>
+          <ReactWOW animation ='bounceInUp'>
+            <div className="intro d-flex flex-column align-items-center pt-3">
+              <figure>
+                <img src={display_image} ></img>
+              </figure>
+              <h2 class="mb-0">Sankshit Pandoh</h2>
+              <p>"If you can't blow them with your brilliance, baffle them with your bullshit."</p>
+            </div>
+          </ReactWOW>
 
           <div class="nav-list my-3">
-            <div onClick={this.handleClick} style={{backgroundColor: this.state.l0, color: this.state.c0}} className="single-nav mb-2 pl-3 d-flex align-items-center">About Me</div>
-            <div onClick={this.handleClick1} style={{backgroundColor: this.state.l1, color: this.state.c1}} className="single-nav mb-2 pl-3 d-flex align-items-center">Experience</div>  
-            <div onClick={this.handleClick2} style={{backgroundColor: this.state.l2, color: this.state.c2}} className="single-nav mb-2 pl-3 d-flex align-items-center">Education</div>  
-            <div onClick={this.handleClick3} style={{backgroundColor: this.state.l3, color: this.state.c3}} className="single-nav mb-2 pl-3 d-flex align-items-center">Skills</div>
-            <div onClick={this.handleClick4} style={{backgroundColor: this.state.l4, color: this.state.c4}} className="single-nav mb-2 pl-3 d-flex align-items-center">Projects</div>  
-            <div onClick={this.handleClick5} style={{backgroundColor: this.state.l5, color: this.state.c5}} className="single-nav mb-2 pl-3 d-flex align-items-center">Contact Me</div>  
+            <ReactWOW animation="bounceInUp" delay='0.5s'>
+              <div onClick={this.handleClick} style={{backgroundColor: this.state.l0, color: this.state.c0}} className="single-nav mb-2 pl-3 d-flex align-items-center">About Me</div>
+            </ReactWOW>
+            <ReactWOW animation="bounceInUp" delay='0.7s'>
+              <div onClick={this.handleClick1} style={{backgroundColor: this.state.l1, color: this.state.c1}} className="single-nav mb-2 pl-3 d-flex align-items-center">Experience</div>  
+            </ReactWOW>
+            <ReactWOW animation="bounceInUp" delay='0.9s'>
+              <div onClick={this.handleClick2} style={{backgroundColor: this.state.l2, color: this.state.c2}} className="single-nav mb-2 pl-3 d-flex align-items-center">Education</div>
+            </ReactWOW>
+            <ReactWOW animation="bounceInUp" delay='1.1s'>
+              <div onClick={this.handleClick3} style={{backgroundColor: this.state.l3, color: this.state.c3}} className="single-nav mb-2 pl-3 d-flex align-items-center">Skills</div>
+            </ReactWOW>
+            <ReactWOW animation="bounceInUp" delay='1.3s'>
+              <div onClick={this.handleClick4} style={{backgroundColor: this.state.l4, color: this.state.c4}} className="single-nav mb-2 pl-3 d-flex align-items-center">Projects</div> 
+            </ReactWOW>
+            <ReactWOW animation="bounceInUp" delay='1.5s'>
+              <div onClick={this.handleClick5} style={{backgroundColor: this.state.l5, color: this.state.c5}} className="single-nav mb-2 pl-3 d-flex align-items-center">Contact Me</div>
+            </ReactWOW>  
           </div>
 
         </div>

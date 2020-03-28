@@ -1,0 +1,18 @@
+.about-me{
+  font-family: Cataclysmo;
+}
+.about-me .about-me-intro h2{
+    color: rgba(255, 255, 255, .55);
+    font-size: 50px;
+}
+.about-me .about-me-intro P{
+    font-size: 25px;
+    letter-spacing: 0.8px;
+    color: rgba(255, 255, 255, .55);
+}
+.about-me ul,li{
+    font-size: 25px;
+}
+.about-me ul li strong{
+    color: #fff;
+}

@@ -9,7 +9,7 @@ export default function About_me(){
         <div class="container">
             <div class="about-me">
 
-                <div class="col-7 about-me-intro">
+                <div class="col-12 about-me-intro">
 
                     <ReactWOW animation ='rotateInUpRight'>
                     <h2>
@@ -17,27 +17,25 @@ export default function About_me(){
                     </h2>
                     </ReactWOW>
 
-                    <ReactWOW animation ='rotateInUpRight' delay="0.5s">
                     <p class="text-justify">
                     Web Developer from Jammu, India.
                     Currently employed by Uplers where I work as a <span>Front-end developer</span>.
                     I have rich experience in developing <span> Front-end systems and writing apllication code</span>. 
                     Working with command lines and writing modules interest me. I aspire to become a full
-                    stack developer in near future. I am a big Sci-Fi junkie and a firm believer of <span> Quantum immortality
+                    stack developer in near future. I am a big <span>Sci-Fi</span> junkie and a firm believer of <span> Quantum immortality
                     and Simulation theory</span>.  
                     </p>
-                    </ReactWOW>
 
                 </div>
 
-                    <div class="col-5 d-flex">
+                    {/* <div class="col-5 d-flex">
                         <ul class="d-flex flex-column">
                             <li class="mb-4"><strong>Age:</strong><span class="ml-3">21</span></li>
                             <li class="mb-4"><strong>Freelance:</strong><span class="ml-3">Available</span></li>  
                             <li class="mb-4"><strong>Home Town:</strong><span class="ml-3">Jammu, India</span></li>
                             <li class="mb-4"><strong>Current Address:</strong><span class="ml-3">Ahmedabad, Gujarat</span></li>
                         </ul>
-                    </div>
+                    </div> */}
 
             </div>
         </div>

@@ -3,10 +3,10 @@
 }
 .about-me .about-me-intro h2{
     color: rgba(255, 255, 255, .55);
-    font-size: 50px;
+    font-size: 120px;
 }
 .about-me .about-me-intro P{
-    font-size: 25px;
+    font-size: 45px;
     letter-spacing: 0.8px;
     color: rgba(255, 255, 255, .55);
 }

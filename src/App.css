@@ -1,7 +1,3 @@
-/* pre loader css starts here */
-
-/* pre laoder css ends here */
-
 .page-wrapper{
   background-color: black;
   height: 100vh;
@@ -19,10 +15,9 @@
   font-family: Cataclysmo;
 }
 .left-section .intro p{
-  font-size: 13px;
+  font-size: 15px;
   text-align: center;
-    font-family: KomikaAxis;
-    /* font-family: Bellada-Regular; */
+  font-family: KomikaAxis;
   color: black;
 }
 .left-section .intro figure{

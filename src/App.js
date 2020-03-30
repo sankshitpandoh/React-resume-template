@@ -179,7 +179,7 @@ export default class App extends Component{
                 <img src={display_image} alt="display image" ></img>
               </figure>
               <h2 class="mb-0">Sankshit Pandoh</h2>
-              <p>"If you can't blow them with your brilliance, baffle them with your bullshit."</p>
+              <p>"Please be nice to me."</p>
             </div>
           </ReactWOW>
 

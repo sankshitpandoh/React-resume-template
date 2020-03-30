@@ -1,0 +1,59 @@
+.lead p{
+   color: rgba(255, 255, 255, .55);
+  font-family: Cataclysmo;
+  font-size: 25px;
+}
+span{
+    color: #ff9800;
+}
+
+input{
+    padding: 18px 20px;
+    background-color: #636363;
+    border: none;
+    color: #eee;
+    font-size: 15px !important;
+    transition: all 0.5s;
+}
+input:focus{
+    background-color: #ff9800;
+    color: #000;
+    
+}
+input::placeholder{
+  font-family: Cataclysmo;
+  font-size: 20px;
+}
+textarea{
+    padding: 18px 20px;
+    line-height: 24px;
+    border: none;
+    font-size: 13px;
+    height: 150px;
+    background-color: #636363;
+    color: #eee;
+    font-size: 15px !important;
+    transition: all 0.5s;
+}
+textarea:focus{
+    background-color: #ff9800;
+    color: #000;
+}
+textarea::placeholder{
+    font-family: Cataclysmo;
+    font-size: 20px;
+  }
+.submit-btn{
+    font-family: Cataclysmo;
+    padding: 5px 5px;
+    float: right;
+    width: 35%;
+    color: #fff;
+    border: none;
+    background-color: #0D0D0D;
+    transition: all 0.5s;
+}
+.submit-btn:hover{
+    color: #0D0D0D;
+    background-color: #fff;
+}

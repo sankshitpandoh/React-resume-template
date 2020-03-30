@@ -66,6 +66,7 @@
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
+      <input type="text" name="subject"/>
       <textarea name="message"></textarea>
     </form>
     <div id="root">
@@ -79,19 +80,17 @@
 
       ReactDOM.render(
         <form name="contact" method="post">
-          <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>Your Name: <input type="text" name="name"/></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email"/></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
+                        <input type="hidden" name="form-name" value="contact" />
+
+
+                        <input class="col-12 mb-3" placeholder="Name" type="text" name="name"/>
+
+                        <input class="col-12 mb-3" placeholder="Email" type="email" name="email"/>
+                        <input class="col-12 mb-3" placeholder="Subject" type="text" name="subject"/>
+
+                        <textarea class="col-12 mb-3" placeholder="Message" name="message"/>
+                        <button class="d-flex" type="submit">Send</button>
+                        
         </form>,
         document.getElementById("root")
       );

@@ -9,7 +9,7 @@ export default function Education(){
         <div class="container row">
             <div class="col-10">
                 <div class = "single-ed p-3 mb-3">
-                    <div class="top d-flex">
+                    <div class="top d-flex align-items-center">
                         <h2>Pandit DeenDayal Petroleum University</h2>
                         <span class="time ml-auto">2016 - 2020</span>
                     </div>
@@ -29,7 +29,7 @@ export default function Education(){
 
             <div class="col-8">
                 <div class = "single-ed p-3 mb-3">
-                    <div class="top d-flex">
+                    <div class="top d-flex align-items-center">
                         <h2>Ranbir Higher Secondary School</h2>
                         <span class="time ml-auto">2014 - 2016</span>
                     </div>

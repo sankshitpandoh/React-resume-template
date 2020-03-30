@@ -27,16 +27,6 @@ export default function About_me(){
                     </p>
 
                 </div>
-
-                    {/* <div class="col-5 d-flex">
-                        <ul class="d-flex flex-column">
-                            <li class="mb-4"><strong>Age:</strong><span class="ml-3">21</span></li>
-                            <li class="mb-4"><strong>Freelance:</strong><span class="ml-3">Available</span></li>  
-                            <li class="mb-4"><strong>Home Town:</strong><span class="ml-3">Jammu, India</span></li>
-                            <li class="mb-4"><strong>Current Address:</strong><span class="ml-3">Ahmedabad, Gujarat</span></li>
-                        </ul>
-                    </div> */}
-
             </div>
         </div>
     )

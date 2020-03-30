@@ -171,15 +171,15 @@ export default class App extends Component{
     return(
       <div className="page-wrapper d-flex">
 
-        <div className="left-section col-2 px-0">
+        <div className="left-section col-lg-2 col-12 px-0">
 
           <ReactWOW animation ='bounceInUp'>
             <div className="intro d-flex flex-column align-items-center pt-3">
-              <figure>
+              <figure class="mb-3">
                 <img src={display_image} alt="display image" ></img>
               </figure>
               <h2 class="mb-0">Sankshit Pandoh</h2>
-              <p>"Please be nice to me."</p>
+              <p class="mb-2">"Please be nice to me."</p>
             </div>
           </ReactWOW>
 
@@ -206,7 +206,7 @@ export default class App extends Component{
 
         </div>
 
-        <div className="display col-10 p-4">
+        <div className="display col-lg-10 col-12 p-4">
           {this.renderElement()}
         </div>
         

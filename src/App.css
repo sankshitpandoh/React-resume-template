@@ -57,3 +57,13 @@
   border-left: 10px solid black;
 }
 
+@media (max-width:768px){
+  .page-wrapper{
+    overflow: scroll;
+    flex-direction: column;
+  }
+  .display{
+    height: 100vh;
+  }
+}
+

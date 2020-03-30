@@ -19,3 +19,10 @@
 .about-me span{
     color: #ff9800
 }
+@media (max-width: 768px){
+    .about-me-intro h2{
+        visibility: visible !important;
+        text-align: center;
+        font-size: 50px;
+    }
+}

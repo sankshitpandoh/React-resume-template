@@ -7,7 +7,7 @@ export default function Education(){
     return(
         <ReactWOW animation ='bounceInUp'>
         <div class="container row">
-            <div class="col-10">
+            <div class="col-lg-10 col-12">
                 <div class = "single-ed p-3 mb-3">
                     <div class="top d-flex align-items-center">
                         <h2>Pandit DeenDayal Petroleum University</h2>
@@ -27,7 +27,7 @@ export default function Education(){
                 </div>
             </div>
 
-            <div class="col-8">
+            <div class="col-lg-8 col-12">
                 <div class = "single-ed p-3 mb-3">
                     <div class="top d-flex align-items-center">
                         <h2>Ranbir Higher Secondary School</h2>
@@ -47,7 +47,7 @@ export default function Education(){
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
 
                 <div class = "single-ed p-3 mb-3">
                     <div class="top d-flex align-items-center">

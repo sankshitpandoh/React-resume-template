@@ -1,7 +1,11 @@
 .page-wrapper{
   background-color: black;
+  font-family: Cataclysmo;
   height: 100vh;
   overflow: hidden;
+}
+.mob-display{
+  display: none;
 }
 .left-section{
   z-index: 10;
@@ -57,13 +61,67 @@
   border-left: 10px solid black;
 }
 
-@media (max-width:768px){
+/* @media(max-width:576px){
+  .left-section{
+    display: flex;
+  }
+  .intro{
+    flex-direction: column !important;
+    height: 250px !important;
+  }
+} */
+ @media (max-width: 991px){
   .page-wrapper{
     overflow: scroll;
     flex-direction: column;
+    animation: none !important;
+  }
+  .mob-display{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-section{
+    display: none !important;
+  }
+  .display{
+    display: none !important;
+  }
+  .mob-background{
+    background-color: white;
+    padding: 20px 0px;
+  }
+}
+/*
+@media (max-width:768px){
+  .ham-bar{
+    display: flex !important;
+  }
+  .ham-menu{
+    display: flex;
+  }
+  .left-section{
+    display: none;
   }
   .display{
     height: 100vh;
+    border: 0;
   }
-}
+	.animated {
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+} */
 

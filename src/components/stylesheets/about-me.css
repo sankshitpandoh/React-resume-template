@@ -5,7 +5,7 @@
     color: rgba(255, 255, 255, .55);
     font-size: 120px;
 }
-.about-me .about-me-intro P{
+.about-me .about-me-intro p{
     font-size: 45px;
     letter-spacing: 0.8px;
     color: rgba(255, 255, 255, .55);
@@ -20,9 +20,13 @@
     color: #ff9800
 }
 @media (max-width: 768px){
-    .about-me-intro h2{
+    .about-me .about-me-intro h2{
         visibility: visible !important;
         text-align: center;
-        font-size: 50px;
+        font-size: 45px;
+    }
+    .about-me .about-me-intro p{
+        font-size: 26px;
+        text-align: center !important;
     }
 }

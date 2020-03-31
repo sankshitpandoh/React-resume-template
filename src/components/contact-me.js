@@ -29,9 +29,9 @@ export default function Contact_me(){
                         
                      </form>
                 </div>
-                <div class="col-lg-5 ">
+                <div class="col-lg-5 col-12">
                     <div class="contact-info d-flex flex-col-lgumn justify-content-center">
-                        <h2>Contact Details</h2>
+                        {/* <h2>Contact Details</h2> */}
                     </div>
                 </div>
             </div>

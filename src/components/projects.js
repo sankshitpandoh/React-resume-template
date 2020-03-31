@@ -2,6 +2,10 @@ import React,{Component} from 'react'
 
 export default function Projects(){
     return(
-        <div>hi</div>
+        <div class="container">
+            <h2>
+                
+            </h2>
+        </div>
     )
 }

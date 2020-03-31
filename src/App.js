@@ -6,7 +6,7 @@ import Experience from './components/experience.js';
 import Education from './components/education.js';
 import Skills from './components/skills.js';
 import Projects from './components/projects.js';
-import Contact_me from './components/contact-me.js';
+import Contact_me from './components/contact-me.js';  
 import 'bootstrap/dist/css/bootstrap.css';
 import './components/stylesheets/reset.css';
 import './fonts/fontface.css';
@@ -209,7 +209,16 @@ export default class App extends Component{
         <div className="display col-lg-10 col-12 p-4">
           {this.renderElement()}
         </div>
-        
+        <div class="mob-display p-4">
+        <About_me />
+        <Experience />
+        <div className="mob-background">
+        <Education />
+        </div>
+        <Skills />
+        <Projects />
+        <Contact_me />
+          </div> 
       </div>
     )
   }

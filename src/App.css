@@ -61,6 +61,17 @@
   border-left: 10px solid black;
 }
 
+@media(max-width:991px){
+  .page-wrapper{
+    overflow: scroll;
+    flex-direction: column;
+    animation: none !important;
+    height: 100%;
+  }
+  .display{
+    border: none;
+  }
+}
 /* @media(max-width:576px){
   .left-section{
     display: flex;
@@ -70,7 +81,7 @@
     height: 250px !important;
   }
 } */
- @media (max-width: 991px){
+ /* @media (max-width: 991px){
   .page-wrapper{
     overflow: scroll;
     flex-direction: column;
@@ -89,8 +100,9 @@
   .mob-background{
     background-color: white;
     padding: 20px 0px;
+    height: 100vh;
   }
-}
+} */
 /*
 @media (max-width:768px){
   .ham-bar{

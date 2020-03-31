@@ -23,4 +23,8 @@
     .single-ed{
         visibility: visible !important;
     }
+    .single-ed .top{
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
 }

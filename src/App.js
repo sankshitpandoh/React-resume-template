@@ -209,16 +209,6 @@ export default class App extends Component{
         <div className="display col-lg-10 col-12 p-4">
           {this.renderElement()}
         </div>
-        <div class="mob-display p-4">
-        <About_me />
-        <Experience />
-        <div className="mob-background">
-        <Education />
-        </div>
-        <Skills />
-        <Projects />
-        <Contact_me />
-          </div> 
       </div>
     )
   }

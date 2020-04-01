@@ -1,0 +1,37 @@
+.single-experience{ 
+    padding: 20px;
+    height: 100vh;
+}
+.exp-cont .first{
+    background-color: #ff9800;
+    color: black;
+}
+.exp-cont .second{
+    background-color: black;
+    color: #fff;
+}
+.exp-cont .third{
+    background-color: #fff;
+    color: #ff9800;
+}
+.exp-cont .first span{
+    color: white;
+}
+.exp-cont .second span{
+    color: #ff9800;
+}
+.exp-cont .third span{
+    color: black;
+}
+@media(max-width:991px){
+    .exp-cont{
+        flex-direction: column;
+    }
+    .single-experience{
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    .container{
+        padding: 0 !important;
+    }
+}

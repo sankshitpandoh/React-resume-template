@@ -4,9 +4,7 @@
   height: 100vh;
   overflow: hidden;
 }
-.mob-display{
-  display: none;
-}
+
 .left-section{
   z-index: 10;
 }

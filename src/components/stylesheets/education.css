@@ -27,4 +27,7 @@
         flex-direction: column;
         align-items: flex-start !important;
     }
+    .single-ed .top span{
+        margin-left: 0 !important;
+    }
 }

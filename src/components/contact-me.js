@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './stylesheets/font-awesome.min.css';
 import '../fonts/fontface.css'
 import './stylesheets/reset.css';
 import './stylesheets/contact-me.css';
@@ -8,7 +9,7 @@ export default function Contact_me(){
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-7 col-12 lead">
+                <div class="col-lg-7 order-lg-1 order-2 col-12 lead">
                     <p class="text-justify mb-4">
                         Have a project for me? Think I'd be a good fit for your team ?
                          <span> I'd love to hear from you, </span> give me a shout by using
@@ -29,9 +30,32 @@ export default function Contact_me(){
                         
                      </form>
                 </div>
-                <div class="col-lg-5 col-12">
-                    <div class="contact-info d-flex flex-col-lgumn justify-content-center">
-                        {/* <h2>Contact Details</h2> */}
+                <div class="col-lg-5 order-lg-2 order-1 col-12 d-flex flex-column justify-content-center">
+                    <div class="contact-info d-flex flex-column justify-content-center">
+                        <h3>Let's connect:</h3>
+                        <div class="d-flex social-links mb-3">
+                            <a class="mr-4" href="https://github.com/sankshitpandoh" target="_blank">
+                                <i className="fa fa-github"></i>
+                            </a>
+                            <a class="mr-4" href="https://www.linkedin.com/in/sankshit-pandoh/" target="_blank">
+                                <i className="fa fa-linkedin"></i>
+                            </a>
+                            <a class="mr-4" href="https://www.instagram.com/sankshitpandoh/" target="_blank">
+                                <i className="fa fa-instagram"></i>
+                            </a>
+                            <a class="mr-4" href="https://www.facebook.com/sankshit.pandoh.5" target="_blank">
+                                <i className="fa fa-facebook"></i>
+                            </a>
+                            <a class="mr-4" href="https://music.apple.com/profile/sankshit" target="_blank">
+                            <i class="fa fa-music"></i>
+                            </a>
+                            <a class="mr-4" href="https://open.spotify.com/user/sankshit02pandoh.sp?si=vXo07NjQQuyNetOkCMIUtw" target="_blank">
+                            <i class="fa fa-spotify"></i>
+                            </a>
+                        
+                        </div>
+                        <h3>Email: <a class="mail" href="mailto:sankshit02pandoh.sp@gmail.com"><span>sankshit02pandoh.sp@gmail.com</span></a></h3>
+                        <h3>Phone: <span>+91 7780866902</span></h3>
                     </div>
                 </div>
             </div>

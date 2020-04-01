@@ -1,5 +1,5 @@
 .lead p{
-   color: rgba(255, 255, 255, .55);
+   color: rgba(255, 255, 255, .75);
   font-family: Cataclysmo;
   font-size: 25px;
 }
@@ -23,6 +23,8 @@ input:focus{
 input::placeholder{
   font-family: Cataclysmo;
   font-size: 20px;
+  color: white;
+  opacity: 0.5;
 }
 textarea{
     padding: 18px 20px;
@@ -42,6 +44,8 @@ textarea:focus{
 textarea::placeholder{
     font-family: Cataclysmo;
     font-size: 20px;
+    color: white;
+    opacity: 0.5;
   }
 .submit-btn{
     font-family: Cataclysmo;
@@ -56,4 +60,51 @@ textarea::placeholder{
 .submit-btn:hover{
     color: #0D0D0D;
     background-color: #fff;
+}
+.social-links a{
+    color: white;
+    font-size: 25px;
+}
+.social-links a:hover{
+    color: #ff9800;
+    transform: scale(1.15);
+    transition: 0.5s all;
+}
+.mail{
+    color: #ff9800;
+    transition: 0.5s all;
+    position: relative;
+}
+.mail:after{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 1px;
+    background-color: #ff9800;
+}
+.mail:hover{
+    color: #ff9800;
+    text-decoration: none;
+}
+.mail:hover:after{
+                
+    width: 0%;
+    animation: underline 2s forwards;
+}
+
+@keyframes underline{
+    100%{
+        width: 100% ;
+    }
+}
+
+
+@media(max-width:991px){
+    .contact-info{
+        margin-bottom: 20px;
+    }
+    .social-links a{
+        font-size: 35px;
+    }
 }

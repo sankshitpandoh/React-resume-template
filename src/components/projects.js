@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 
 export default function Projects(){
     return(
-        <div class="container">
+        <div className="container">
             <h2>
                 This section is under construction
             </h2>

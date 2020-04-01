@@ -6,10 +6,10 @@ import './stylesheets/about-me.css';
 
 export default function About_me(){
     return(
-        <div class="container">
-            <div class="about-me">
+        <div className="container">
+            <div className="about-me">
 
-                <div class="col-12 about-me-intro">
+                <div className="col-12 about-me-intro">
 
                     <ReactWOW animation ='rotateInUpRight'>
                     <h2>
@@ -17,7 +17,7 @@ export default function About_me(){
                     </h2>
                     </ReactWOW>
 
-                    <p class="text-justify">
+                    <p className="text-justify">
                     Web Developer from Jammu, India.
                     Currently employed by Uplers where I work as a <span>Front-end developer</span>.
                     I have rich experience in developing <span> Front-end systems and writing apllication code</span>. 

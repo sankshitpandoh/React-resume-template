@@ -2,6 +2,13 @@
     padding: 20px;
     height: 100vh;
 }
+.exp-cont p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.exp-cont .aposti{
+    font-size: 20px;
+}
 .exp-cont .first{
     background-color: #ff9800;
     color: black;
@@ -11,8 +18,12 @@
     color: #fff;
 }
 .exp-cont .third{
-    background-color: #fff;
-    color: #ff9800;
+    background-color: #ff9800;
+    color: black;
+}
+.exp-cont .fourth{
+    background-color: black;
+    color: #fff;
 }
 .exp-cont .first span{
     color: white;
@@ -21,7 +32,10 @@
     color: #ff9800;
 }
 .exp-cont .third span{
-    color: black;
+    color: white;
+}
+.exp-cont .fourth span{
+    color: #ff9800;
 }
 @media(max-width:991px){
     .exp-cont{

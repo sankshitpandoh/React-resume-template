@@ -9,43 +9,57 @@ export default function Experience(){
             <div className="exp-cont d-flex">
 
           <ReactWOW animation ='bounceInUp' >
-            <div className="col-lg-4 col-12">
+            <div className="col-lg-3 col-12">
                 <div className="single-experience first d-flex flex-column">
                     <h2>FrontEnd Developer</h2>
                     <h2><span>Uplers - Global MarTech Agency</span></h2>
                     <h4>Jan,2020 - Present</h4>
                     <p>
-                        More details later
+                        More details later...
                     </p>
                 </div>
             </div>
         </ReactWOW>
 
         <ReactWOW animation ="bounceInUp" delay='0.5s'>
-            <div className="col-lg-4 col-12">
+            <div className="col-lg-3 col-12">
                 <div className="single-experience second d-flex flex-column">
                     <h2>React Developer</h2>
-                    <h2><span>SportVot - Digital Sports Streaming Service</span></h2>
+                    <h2><span>SportVot - Digital Streaming Service</span></h2>
                     <h4>June,2019 - Nov,2019</h4>
-                    <p>
-                    "Cupcake ipsum dolor sit. Amet I love liquorice jujubes pudding croissant I love pudding. Apple pie macaroon toffee jujubes pie tart cookie applicake caramels. Halvah macaroon I love lollipop. Wypas I love pudding brownie cheesecake tart jelly-o. Bear claw cookie chocolate bar jujubes toffee."
-                    </p>
+                    <p class="mb-1"> // Played a major role in developing the working POC for the streaming platform </p>
+                    <p class="mb-1"> // Integrated the <u> HLS streaming</u>  in the main framework</p>
+                    <p class="mb-1"> // Developed the Front End layout for the Web version of the streaming website</p>
                 </div>
             </div>
-            </ReactWOW>
+        </ReactWOW>
 
-        <ReactWOW animation ="bounceInUp" delay='1s'>
-                <div className="col-lg-4 col-12 d-flex flex-column">
+            <ReactWOW animation ="bounceInUp" delay='1s'>
+                <div className="col-lg-3 col-12 d-flex flex-column">
                     <div className="single-experience third">
-                        <h2>Graphics Head</h2>
-                        <h2><span>Jharokha- Literature club of PDPU</span></h2>
-                        <h4>Aug,2017 - May,2019</h4>
-                        <p>
-                        "Lorizzle ipsum bling bling sit amizzle, consectetuer adipiscing elit. Nizzle sapien velizzle, bling bling volutpat, suscipit , gravida vel, arcu. Check it out hizzle that's the shizzle. We gonna chung erizzle. Fo izzle dolor fo turpis tempizzle tempor. Gangsta boom shackalack mofo et turpizzle. Sizzle izzle tortor. Pellentesque uhuh ... yih!"
-                        </p>
+                        <h2>Trainee</h2>
+                        <h2><span>Netcamp Solutions Pvt. Ltd.</span></h2>
+                        <h4>June,2018 - July,2018</h4>
+                        <p class="mb-1"> // Industrial Training on Network Management and Web Development with Android </p>
+                        <p class="mb-1"> // Stint with Technologies like Red Hat Linux, MySQl, JavaScript, Advanced CSS and Android</p>
+                        <p class="mb-1"> // Appeared amongst the <u>Top 10 participants</u> by the end of the Camp.</p>
                     </div>
                 </div>
-                </ReactWOW>
+            </ReactWOW>
+
+            <ReactWOW animation ="bounceInUp" delay='1.5s'>
+                <div className="col-lg-3 col-12 d-flex flex-column">
+                    <div className="single-experience fourth">
+                        <h2>Graphics Head</h2>
+                        <h2><span>Position of Responsibilities</span></h2>
+                        <h4>Aug,2017 - May,2019</h4>
+                        <p class="mb-1"> // Held the position of Design and Graphics head for <u> 'Flare' , PDPU's annual culture fest</u> and <u> 'Jharoka' , the literature club of PDPU</u> for two consecutive years</p>
+                        <p class="mb-1"> // Designed and Published the annual college magazine, 'Flare it up'</p>
+                        <p class="mb-1"> // Managed a team of 15 people to release our monthly newsletter for the literature club, 'Jharokha' </p>
+                    </div>
+                </div>
+            </ReactWOW>
+
             </div>
 
         </div>

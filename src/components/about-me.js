@@ -20,7 +20,7 @@ export default function About_me(){
                     <p className="text-justify">
                     Web Developer from Jammu, India.
                     Currently employed by Uplers where I work as a <span>Front-end developer</span>.
-                    I have rich experience in developing <span> Front-end systems and writing apllication code</span>. 
+                    I have rich experience in developing <span> Front-end systems and writing application code</span>. 
                     Working with command lines and writing modules interest me. I aspire to become a full
                     stack developer in near future. I am a big <span>Sci-Fi</span> junkie and a firm believer of <span> Quantum immortality
                     and Simulation theory</span>.  

@@ -1,6 +1,6 @@
 A resume/portfolio website made using ReactJs and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Currently hosted on netlify [here](https://practical-lumiere-fd31c9.netlify.com).
+Currently hosted on netlify.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/653319e9-f06a-49b8-8ef2-60bbd382fff3/deploy-status)](https://app.netlify.com/sites/practical-lumiere-fd31c9/deploys)
 

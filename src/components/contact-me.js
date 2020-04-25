@@ -32,7 +32,7 @@ export default function Contact_me(){
                 </div>
                 <div className="col-lg-5 order-lg-2 order-1 col-12 d-flex flex-column justify-content-center">
                     <div className="contact-info d-flex flex-column justify-content-center">
-                        <h3>Let's connect:</h3>
+                        <h3>Is it me you are looking for ?</h3>
                         <div className="d-flex social-links mb-3">
                             <a className="mr-4" href="https://github.com/sankshitpandoh" target="_blank">
                                 <i className="fa fa-github"></i>

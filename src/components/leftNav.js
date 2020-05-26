@@ -17,24 +17,55 @@ function LeftNav(props){
         </ReactWOW>
 
         <div className="nav-list my-3">
+
           <ReactWOW animation="bounceInUp" delay='0.5s'>
-            <div onClick={props.handleClick} style={{backgroundColor: props.l0, color: props.c0}} className="single-nav mb-2 pl-3 d-flex align-items-center">About Me</div>
+            <div onClick={props.handleClick} 
+                 style={{backgroundColor: `${props.active === 0 ? "black" : "white" }` , color: `${props.active === 0 ? "white" : "black" }`  }} 
+                 className="single-nav mb-2 pl-3 d-flex align-items-center">
+                    About Me
+            </div>
           </ReactWOW>
-          <ReactWOW animation="bounceInUp" delay='0.7s'>
-            <div onClick={props.handleClick1} style={{backgroundColor: props.l1, color: props.c1}} className="single-nav mb-2 pl-3 d-flex align-items-center">Experience</div>  
+
+          <ReactWOW animation="bounceInUp" delay='0.5s'>
+            <div onClick={props.handleClick1} 
+                 style={{backgroundColor: `${props.active === 1 ? "black" : "white" }` , color: `${props.active === 1 ? "white" : "black" }`  }} 
+                 className="single-nav mb-2 pl-3 d-flex align-items-center">
+                    Experience
+            </div>
           </ReactWOW>
-          <ReactWOW animation="bounceInUp" delay='0.9s'>
-            <div onClick={props.handleClick2} style={{backgroundColor: props.l2, color: props.c2}} className="single-nav mb-2 pl-3 d-flex align-items-center">Education</div>
+
+          <ReactWOW animation="bounceInUp" delay='0.5s'>
+            <div onClick={props.handleClick2} 
+                 style={{backgroundColor: `${props.active === 2 ? "black" : "white" }` , color: `${props.active === 2 ? "white" : "black" }`  }} 
+                 className="single-nav mb-2 pl-3 d-flex align-items-center">
+                    Education
+            </div>
           </ReactWOW>
-          <ReactWOW animation="bounceInUp" delay='1.1s'>
-            <div onClick={props.handleClick3} style={{backgroundColor: props.l3, color: props.c3}} className="single-nav mb-2 pl-3 d-flex align-items-center">Skills</div>
+
+          <ReactWOW animation="bounceInUp" delay='0.5s'>
+            <div onClick={props.handleClick3} 
+                 style={{backgroundColor: `${props.active === 3 ? "black" : "white" }` , color: `${props.active === 3 ? "white" : "black" }`  }} 
+                 className="single-nav mb-2 pl-3 d-flex align-items-center">
+                    Skills
+            </div>
           </ReactWOW>
-          <ReactWOW animation="bounceInUp" delay='1.3s'>
-            <div onClick={props.handleClick4} style={{backgroundColor: props.l4, color: props.c4}} className="single-nav mb-2 pl-3 d-flex align-items-center">Projects</div> 
+
+          <ReactWOW animation="bounceInUp" delay='0.5s'>
+            <div onClick={props.handleClick4} 
+                 style={{backgroundColor: `${props.active === 4 ? "black" : "white" }` , color: `${props.active === 4 ? "white" : "black" }`  }} 
+                 className="single-nav mb-2 pl-3 d-flex align-items-center">
+                    Projects
+            </div>
           </ReactWOW>
-          <ReactWOW animation="bounceInUp" delay='1.5s'>
-            <div onClick={props.handleClick5} style={{backgroundColor: props.l5, color: props.c5}} className="single-nav mb-2 pl-3 d-flex align-items-center">Contact Me</div>
-          </ReactWOW>  
+
+          <ReactWOW animation="bounceInUp" delay='0.5s'>
+            <div onClick={props.handleClick5} 
+                 style={{backgroundColor: `${props.active === 5 ? "black" : "white" }` , color: `${props.active === 5 ? "white" : "black" }`  }} 
+                 className="single-nav mb-2 pl-3 d-flex align-items-center">
+                    Contact Me
+            </div>
+          </ReactWOW>
+
         </div>
 
       </div>

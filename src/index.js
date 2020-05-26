@@ -82,7 +82,7 @@ export default class App extends Component{
   render(){
     return(
       <div className="page-wrapper d-flex">
-        <LeftNav state ={this.state}
+        <LeftNav active ={this.state.initial}
                  handleClick = {this.handleClick} 
                  handleClick1 = {this.handleClick1} 
                  handleClick2 = {this.handleClick2} 

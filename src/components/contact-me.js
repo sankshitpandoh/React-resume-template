@@ -47,10 +47,10 @@ export default function ContactMe(){
                                 <i className="fa fa-facebook"></i>
                             </a>
                             <a className="mr-4" href="https://music.apple.com/profile/sankshit" target="_blank" rel="noopener noreferrer" >
-                            <i class="fa fa-music"></i>
+                            <i className="fa fa-music"></i>
                             </a>
                             <a className="mr-4" href="https://open.spotify.com/user/sankshit02pandoh.sp?si=vXo07NjQQuyNetOkCMIUtw" target="_blank" rel="noopener noreferrer" >
-                            <i class="fa fa-spotify"></i>
+                            <i className="fa fa-spotify"></i>
                             </a>
                         
                         </div>

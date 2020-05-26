@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactWOW from 'react-wow';
 import SingleExperience from './singleExperience'
 import './stylesheets/reset.css';
 import './stylesheets/experience.css';

@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom'
-import ReactWOW from 'react-wow'
-import display_image from './images/dp.png';
+import LeftNav from './components/leftNav'
 import About_me from './components/about-me.js';
 import Experience from './components/experience.js';
 import Education from './components/education.js';
@@ -14,126 +13,38 @@ import './fonts/fontface.css';
 import './index.css';
 
 export default class App extends Component{
-  constructor(){
-    super();
-    this.handleClick = this.handleClick.bind(this)
-    this.handleClick1 = this.handleClick1.bind(this)
-    this.handleClick2 = this.handleClick2.bind(this)
-    this.handleClick3 = this.handleClick3.bind(this)
-    this.handleClick4 = this.handleClick4.bind(this)
-    this.handleClick5 = this.handleClick5.bind(this)
-    this.state={
-      initial: 0,
-      l0: "black",
-      l1: "#fff",
-      l2: "#fff",
-      l3: "#fff",
-      l4: "#fff",
-      l5: "#fff",
-      c0: "#fff",
-      c1: "black",
-      c2: "black",
-      c3: "black",
-      c4: "black",
-      c5: "black",
-    }
+  state={
+    initial: 0,
   }
-  handleClick(){
+
+  handleClick = () => {
     this.setState({
       initial:0,
-      l0: "black",
-      l1: "#fff",
-      l2: "#fff",
-      l3: "#fff",
-      l4: "#fff",
-      l5: "#fff",
-      c0: "#fff",
-      c1: "black",
-      c2: "black",
-      c3: "black",
-      c4: "black",
-      c5: "black",
     })
   }
-  handleClick1(){
+  handleClick1 = () => {
     this.setState({
       initial:1,
-      l0: "#fff",
-      l1: "black",
-      l2: "#fff",
-      l3: "#fff",
-      l4: "#fff",
-      l5: "#fff",
-      c0: "black",
-      c1: "#fff",
-      c2: "black",
-      c3: "black",
-      c4: "black",
-      c5: "black",
     })
-  }  handleClick2(){
+  }  
+  handleClick2 = () => {
     this.setState({
       initial:2,
-      l0: "#fff",
-      l1: "#fff",
-      l2: "black",
-      l3: "#fff",
-      l4: "#fff",
-      l5: "#fff",
-      c0: "black",
-      c1: "black",
-      c2: "#fff",
-      c3: "black",
-      c4: "black",
-      c5: "black",
     })
-  }  handleClick3(){
+  } 
+   handleClick3 = () => {
     this.setState({
       initial:3,
-      l0: "#fff",
-      l1: "#fff",
-      l2: "#fff",
-      l3: "black",
-      l4: "#fff",
-      l5: "#fff",
-      c0: "black",
-      c1: "black",
-      c2: "black",
-      c3: "#fff",
-      c4: "black",
-      c5: "black",
     })
-  }  handleClick4(){
+  }  
+  handleClick4 = () => {
     this.setState({
       initial:4,
-      l0: "#fff",
-      l1: "#fff",
-      l2: "#fff",
-      l3: "#fff",
-      l4: "black",
-      l5: "#fff",
-      c0: "black",
-      c1: "black",
-      c2: "black",
-      c3: "black",
-      c4: "#fff",
-      c5: "black",
     })
-  }  handleClick5(){
+  }  
+  handleClick5 = () => {
     this.setState({
       initial:5,
-      l0: "#fff",
-      l1: "#fff",
-      l2: "#fff",
-      l3: "#fff",
-      l4: "#fff",
-      l5: "black",
-      c0: "black",
-      c1: "black",
-      c2: "black",
-      c3: "black",
-      c4: "black",
-      c5: "#fff",
     })
   }
   renderElement(){
@@ -171,42 +82,13 @@ export default class App extends Component{
   render(){
     return(
       <div className="page-wrapper d-flex">
-
-        <div className="left-section col-lg-2 col-12 px-0">
-
-          <ReactWOW animation ='bounceInUp'>
-            <div className="intro d-flex flex-column align-items-center pt-3">
-              <figure class="mb-3">
-                <img src={display_image} alt="display image" ></img>
-              </figure>
-              <h2 class="mb-0">Sankshit Pandoh</h2>
-              <p class="mb-2">"If you can't blow them away with your brilliance, Baffle them with your bullshit."</p>
-            </div>
-          </ReactWOW>
-
-          <div class="nav-list my-3">
-            <ReactWOW animation="bounceInUp" delay='0.5s'>
-              <div onClick={this.handleClick} style={{backgroundColor: this.state.l0, color: this.state.c0}} className="single-nav mb-2 pl-3 d-flex align-items-center">About Me</div>
-            </ReactWOW>
-            <ReactWOW animation="bounceInUp" delay='0.7s'>
-              <div onClick={this.handleClick1} style={{backgroundColor: this.state.l1, color: this.state.c1}} className="single-nav mb-2 pl-3 d-flex align-items-center">Experience</div>  
-            </ReactWOW>
-            <ReactWOW animation="bounceInUp" delay='0.9s'>
-              <div onClick={this.handleClick2} style={{backgroundColor: this.state.l2, color: this.state.c2}} className="single-nav mb-2 pl-3 d-flex align-items-center">Education</div>
-            </ReactWOW>
-            <ReactWOW animation="bounceInUp" delay='1.1s'>
-              <div onClick={this.handleClick3} style={{backgroundColor: this.state.l3, color: this.state.c3}} className="single-nav mb-2 pl-3 d-flex align-items-center">Skills</div>
-            </ReactWOW>
-            <ReactWOW animation="bounceInUp" delay='1.3s'>
-              <div onClick={this.handleClick4} style={{backgroundColor: this.state.l4, color: this.state.c4}} className="single-nav mb-2 pl-3 d-flex align-items-center">Projects</div> 
-            </ReactWOW>
-            <ReactWOW animation="bounceInUp" delay='1.5s'>
-              <div onClick={this.handleClick5} style={{backgroundColor: this.state.l5, color: this.state.c5}} className="single-nav mb-2 pl-3 d-flex align-items-center">Contact Me</div>
-            </ReactWOW>  
-          </div>
-
-        </div>
-
+        <LeftNav state ={this.state}
+                 handleClick = {this.handleClick} 
+                 handleClick1 = {this.handleClick1} 
+                 handleClick2 = {this.handleClick2} 
+                 handleClick3 = {this.handleClick3} 
+                 handleClick4 = {this.handleClick4} 
+                 handleClick5 = {this.handleClick5} />
         <div className="display col-lg-10 col-12 p-4">
           {this.renderElement()}
         </div>

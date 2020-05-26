@@ -1,12 +1,12 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import LeftNav from './components/leftComponents/leftNav'
-import About_me from './components/about-me.js';
+import AboutMe from './components/about-me.js';
 import Experience from './components/experience.js';
 import Education from './components/education.js';
 import Skills from './components/skills.js';
 import Projects from './components/projects.js';
-import Contact_me from './components/contact-me.js';  
+import ContactMe from './components/contact-me.js';  
 import 'bootstrap/dist/css/bootstrap.css';
 import './components/stylesheets/reset.css';
 import './fonts/fontface.css';
@@ -60,7 +60,7 @@ export default class App extends Component{
         <div className="display col-lg-10 col-12 p-4">
           {
             this.state.initial === 0 ?
-              <About_me />
+              <AboutMe />
               :
               this.state.initial === 1 ?
                 <Experience />
@@ -75,7 +75,7 @@ export default class App extends Component{
                       <Projects />
                       :
                       this.state.initial === 5 &&
-                        <Contact_me />
+                        <ContactMe />
           }
         </div>
       </div>

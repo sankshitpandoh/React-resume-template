@@ -1,10 +1,10 @@
-import React,{Component} from 'react';
+import React from 'react';
 import './stylesheets/font-awesome.min.css';
 import '../fonts/fontface.css'
 import './stylesheets/reset.css';
 import './stylesheets/contact-me.css';
 
-export default function Contact_me(){
+export default function ContactMe(){
     return(
         <div className="container">
             <div className="row">
@@ -34,22 +34,22 @@ export default function Contact_me(){
                     <div className="contact-info d-flex flex-column justify-content-center">
                         <h3>Is it me you are looking for ?</h3>
                         <div className="d-flex social-links mb-3">
-                            <a className="mr-4" href="https://github.com/sankshitpandoh" target="_blank">
+                            <a className="mr-4" href="https://github.com/sankshitpandoh" target="_blank" rel="noopener noreferrer" >
                                 <i className="fa fa-github"></i>
                             </a>
-                            <a className="mr-4" href="https://www.linkedin.com/in/sankshit-pandoh/" target="_blank">
+                            <a className="mr-4" href="https://www.linkedin.com/in/sankshit-pandoh/" target="_blank" rel="noopener noreferrer" >
                                 <i className="fa fa-linkedin"></i>
                             </a>
-                            <a className="mr-4" href="https://www.instagram.com/sankshitpandoh/" target="_blank">
+                            <a className="mr-4" href="https://www.instagram.com/sankshitpandoh/" target="_blank" rel="noopener noreferrer" >
                                 <i className="fa fa-instagram"></i>
                             </a>
-                            <a className="mr-4" href="https://www.facebook.com/sankshit.pandoh.5" target="_blank">
+                            <a className="mr-4" href="https://www.facebook.com/sankshit.pandoh.5" target="_blank" rel="noopener noreferrer" >
                                 <i className="fa fa-facebook"></i>
                             </a>
-                            <a className="mr-4" href="https://music.apple.com/profile/sankshit" target="_blank">
+                            <a className="mr-4" href="https://music.apple.com/profile/sankshit" target="_blank" rel="noopener noreferrer" >
                             <i class="fa fa-music"></i>
                             </a>
-                            <a className="mr-4" href="https://open.spotify.com/user/sankshit02pandoh.sp?si=vXo07NjQQuyNetOkCMIUtw" target="_blank">
+                            <a className="mr-4" href="https://open.spotify.com/user/sankshit02pandoh.sp?si=vXo07NjQQuyNetOkCMIUtw" target="_blank" rel="noopener noreferrer" >
                             <i class="fa fa-spotify"></i>
                             </a>
                         

@@ -1,10 +1,10 @@
-import React,{Component} from 'react';
+import React from 'react';
 import ReactWOW from 'react-wow'
 import '../fonts/fontface.css'
 import './stylesheets/reset.css';
 import './stylesheets/about-me.css';
 
-export default function About_me(){
+export default function AboutMe(){
     return(
         <div className="container">
             <div className="about-me">

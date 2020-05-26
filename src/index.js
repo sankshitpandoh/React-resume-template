@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-import ReactWOW from 'react-wow';
 import LeftNav from './components/leftComponents/leftNav'
 import About_me from './components/about-me.js';
 import Experience from './components/experience.js';
@@ -48,38 +47,6 @@ export default class App extends Component{
       initial:5,
     })
   }
-  renderElement(){
-    if(this.state.initial === 0){
-      return(
-        <About_me />
-      )
-    }
-    if(this.state.initial === 1){
-      return(
-        <Experience />
-      )
-    }
-    if(this.state.initial === 2){
-      return(
-        <Education />
-      )
-    }
-    if(this.state.initial === 3){
-      return(
-        <Skills />
-      )
-    }
-    if(this.state.initial === 4){
-      return(
-        <Projects />
-      )
-    }
-    if(this.state.initial === 5){
-      return(
-        <Contact_me />
-      )
-    }
-  }
   render(){
     return(
       <div className="page-wrapper d-flex">
@@ -91,7 +58,25 @@ export default class App extends Component{
                  handleClick4 = {this.handleClick4} 
                  handleClick5 = {this.handleClick5} />
         <div className="display col-lg-10 col-12 p-4">
-          {this.renderElement()}
+          {
+            this.state.initial === 0 ?
+              <About_me />
+              :
+              this.state.initial === 1 ?
+                <Experience />
+                :
+                this.state.initial === 2 ?
+                  <Education />
+                  :
+                  this.state.initial === 3 ?
+                    <Skills />
+                    :
+                    this.state.initial === 4 ?
+                      <Projects />
+                      :
+                      this.state.initial === 5 &&
+                        <Contact_me />
+          }
         </div>
       </div>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactWOW from 'react-wow'
+import ReactWOW from 'react-wow';
 import display_image from '../images/dp.png';
+import LeftSingleNav from './leftSingleNav';
 
 function LeftNav(props){
     return(
@@ -19,51 +20,27 @@ function LeftNav(props){
         <div className="nav-list my-3">
 
           <ReactWOW animation="bounceInUp" delay='0.5s'>
-            <div onClick={props.handleClick} 
-                 style={{backgroundColor: `${props.active === 0 ? "black" : "white" }` , color: `${props.active === 0 ? "white" : "black" }`  }} 
-                 className="single-nav mb-2 pl-3 d-flex align-items-center">
-                    About Me
-            </div>
+            <LeftSingleNav handleClick = {props.handleClick} active = {props.active} activeValue = {0} innerText = {"About Me"} />
           </ReactWOW>
 
           <ReactWOW animation="bounceInUp" delay='0.5s'>
-            <div onClick={props.handleClick1} 
-                 style={{backgroundColor: `${props.active === 1 ? "black" : "white" }` , color: `${props.active === 1 ? "white" : "black" }`  }} 
-                 className="single-nav mb-2 pl-3 d-flex align-items-center">
-                    Experience
-            </div>
+            <LeftSingleNav handleClick = {props.handleClick1} active = {props.active} activeValue = {1} innerText = {"Experience"} />
           </ReactWOW>
 
           <ReactWOW animation="bounceInUp" delay='0.5s'>
-            <div onClick={props.handleClick2} 
-                 style={{backgroundColor: `${props.active === 2 ? "black" : "white" }` , color: `${props.active === 2 ? "white" : "black" }`  }} 
-                 className="single-nav mb-2 pl-3 d-flex align-items-center">
-                    Education
-            </div>
+            <LeftSingleNav handleClick = {props.handleClick2} active = {props.active} activeValue = {2} innerText = {"Education"} />
           </ReactWOW>
 
           <ReactWOW animation="bounceInUp" delay='0.5s'>
-            <div onClick={props.handleClick3} 
-                 style={{backgroundColor: `${props.active === 3 ? "black" : "white" }` , color: `${props.active === 3 ? "white" : "black" }`  }} 
-                 className="single-nav mb-2 pl-3 d-flex align-items-center">
-                    Skills
-            </div>
+            <LeftSingleNav handleClick = {props.handleClick3} active = {props.active} activeValue = {3} innerText = {"Skills"} />
           </ReactWOW>
 
           <ReactWOW animation="bounceInUp" delay='0.5s'>
-            <div onClick={props.handleClick4} 
-                 style={{backgroundColor: `${props.active === 4 ? "black" : "white" }` , color: `${props.active === 4 ? "white" : "black" }`  }} 
-                 className="single-nav mb-2 pl-3 d-flex align-items-center">
-                    Projects
-            </div>
+            <LeftSingleNav handleClick = {props.handleClick4} active = {props.active} activeValue = {4} innerText = {"Projects"} />
           </ReactWOW>
 
           <ReactWOW animation="bounceInUp" delay='0.5s'>
-            <div onClick={props.handleClick5} 
-                 style={{backgroundColor: `${props.active === 5 ? "black" : "white" }` , color: `${props.active === 5 ? "white" : "black" }`  }} 
-                 className="single-nav mb-2 pl-3 d-flex align-items-center">
-                    Contact Me
-            </div>
+            <LeftSingleNav handleClick = {props.handleClick5} active = {props.active} activeValue = {5} innerText = {"Contact Me"} />
           </ReactWOW>
 
         </div>

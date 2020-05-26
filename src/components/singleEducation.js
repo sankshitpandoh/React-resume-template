@@ -4,7 +4,7 @@ import ReactWOW from 'react-wow';
 function SingleEducation(props){
     return(
         <ReactWOW animation ="bounceInRight">
-        <div className="col-12" className = {props.additionalClass}>
+        <div className = {props.additionalClass}>
             <div className = "single-ed p-3 mb-3">
                 <div className="top d-flex align-items-center">
                     <h2>{props.instituteName}</h2>

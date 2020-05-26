@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React from 'react';
 import './stylesheets/skills.css';
 
 export default function Skills(){

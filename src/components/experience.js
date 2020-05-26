@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React from 'react'
 import ReactWOW from 'react-wow';
 import './stylesheets/reset.css';
 import './stylesheets/experience.css';
@@ -27,9 +27,9 @@ export default function Experience(){
                     <h2 class="mb-2">React Developer</h2>
                     <h2 class="mb-2"><span>SportVot - Digital Streaming Service</span></h2>
                     <h4 class="mb-1">June,2019 - Nov,2019</h4>
-                    <p class="mb-1"> // Played a major role in developing the working POC for the streaming platform </p>
-                    <p class="mb-1"> // Integrated the <u> HLS streaming</u>  in the main framework</p>
-                    <p class="mb-1"> // Developed the Front End layout for the Web version of the streaming website</p>
+                    <p class="mb-1"> - Played a major role in developing the working POC for the streaming platform </p>
+                    <p class="mb-1"> - Integrated the <u> HLS streaming</u>  in the main framework</p>
+                    <p class="mb-1"> - Developed the Front End layout for the Web version of the streaming website</p>
                 </div>
             </div>
         </ReactWOW>
@@ -40,9 +40,9 @@ export default function Experience(){
                         <h2 class="mb-2">Trainee</h2>
                         <h2 class="mb-2"><span>Netcamp Solutions Pvt. Ltd.</span></h2>
                         <h4 class="mb-1">June,2018 - July,2018</h4>
-                        <p class="mb-1"> // Industrial Training on Network Management and Web Development with Android </p>
-                        <p class="mb-1"> // Stint with Technologies like Red Hat Linux, MySQl, JavaScript, Advanced CSS and Android</p>
-                        <p class="mb-1"> // Appeared amongst the <u>Top 10 participants</u> by the end of the Camp.</p>
+                        <p class="mb-1"> - Industrial Training on Network Management and Web Development with Android </p>
+                        <p class="mb-1"> - Stint with Technologies like Red Hat Linux, MySQl, JavaScript, Advanced CSS and Android</p>
+                        <p class="mb-1"> - Appeared amongst the <u>Top 10 participants</u> by the end of the Camp.</p>
                     </div>
                 </div>
             </ReactWOW>
@@ -53,9 +53,9 @@ export default function Experience(){
                         <h2 class="mb-2">Graphics Head</h2>
                         <h2 class="mb-2"><span>Position of Responsibilities</span></h2>
                         <h4 class="mb-1">Aug,2017 - May,2019</h4>
-                        <p class="mb-1"> // Held the position of Design and Graphics head for <u> 'Flare' , PDPU's annual culture fest</u> and <u> 'Jharoka' , the literature club of PDPU</u> for two consecutive years</p>
-                        <p class="mb-1"> // Designed and Published the annual college magazine, 'Flare it up'</p>
-                        <p class="mb-1"> // Managed a team of 15 people to release our monthly newsletter for the literature club, 'Jharokha' </p>
+                        <p class="mb-1"> - Held the position of Design and Graphics head for <u> 'Flare' , PDPU's annual culture fest</u> and <u> 'Jharoka' , the literature club of PDPU</u> for two consecutive years</p>
+                        <p class="mb-1"> - Designed and Published the annual college magazine, 'Flare it up'</p>
+                        <p class="mb-1"> - Managed a team of 15 people to release our monthly newsletter for the literature club, 'Jharokha' </p>
                     </div>
                 </div>
             </ReactWOW>
